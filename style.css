@@ -1,0 +1,750 @@
+@import url ('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+
+html, tubuh {
+  overflow-x: disembunyikan;
+  warna latar: # 2B2B2B;
+  latar belakang: # 2B2B2B;
+  background-attachment: gulir;
+  ukuran latar belakang: penutup;
+  tinggi: 100vh;
+  lebar: 100vw;
+  margin: 0;
+  bantalan: 0;
+  min-height: 100vh;
+    }
+
+
+.navbar-default .navbar-nav> li> a {color: #eee; }
+    
+.navbar-brand
+{
+    margin: 0;
+    bantalan: 0;
+latar belakang: transparan;
+transisi: semua .4s mudah;
+}
+
+#clockface {}
+
+@ media (lebar minimum: 1800px)
+{
+.headcontainer {
+    lebar: 1370px! penting;
+}
+
+}
+
+#clockface {float: none! important;}
+
+@ media (lebar maksimum: 967px)
+{
+.hidden-xs {
+    display: tidak ada! penting;
+}
+}
+
+.page-header h1 {
+    ukuran font: 3em;
+}
+@ media (lebar minimum: 768px)
+{
+.memimpin {
+    ukuran font: 18px;
+}
+}
+
+.panel-body {
+	padding: 5px! penting;
+	posisi: relatif;
+	overflow: disembunyikan;
+	display: blok;
+}
+
+.panel-body img {
+	batas-jari-jari: 4px;
+}
+
+.panel-heading { 
+min-height: 70px; 
+}
+
+
+.clock {warna latar: # 222222; lebar: 100%; margin: 0 otomatis; padding: 10px; perbatasan: 1px solid # 282828; warna: #fff; batas-jari-jari: 4px; }
+
+#Tanggal {font-keluarga: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif; ukuran font: 18px; perataan teks: tengah; text-shadow: 0 0 5px # 00c6ff; }
+
+
+
+#point {position: relative; -moz-animation: mymove 1s easy infinite; -webkit-animation: mymove 1s easy infinite; padding-left: 10px; padding-right: 10px; }
+
+@ -webkit-keyframes mymove 
+{
+0% {opacity: 1.0; text-shadow: 0 0 20px # 00c6ff;}
+50% {opacity: 0; text-shadow: tidak ada; }
+100% {opacity: 1.0; text-shadow: 0 0 20px # 00c6ff; }	
+}
+
+
+@ -moz-keyframes mymove 
+{
+0% {opacity: 1.0; text-shadow: 0 0 20px # 00c6ff;}
+50% {opacity: 0; text-shadow: tidak ada; }
+100% {opacity: 1.0; text-shadow: 0 0 20px # 00c6ff; }	
+}
+
+
+@ font-face {
+    font-family: 'BebasNeueRegular';
+    src: url ('BebasNeue-webfont.eot');
+    src: format url ('BebasNeue-webfont.eot? #iefix') ('embedded-opentype'),
+         format url ('BebasNeue-webfont.woff') ('woff'),
+         format url ('BebasNeue-webfont.ttf') ('truetype'),
+         format url ('BebasNeue-webfont.svg # BebasNeueRegular') ('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.clock-face {display: inline; ukuran font: 1.7em; perataan teks: tengah; font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: bold; text-shadow: 0 0 5px # 00c6ff; }
+
+footer {
+background-color: rgba (1,1,1, .5)! important;
+border-top: 0px solid # 000! penting;
+lebar: 100%;
+margin: 0! penting;
+padding: 10px 0px;
+}
+
+footer a { 
+ukuran font: 12px;
+warna: # 888;
+padding-right: 8px;
+padding-left: 8px;
+border-right: 1px solid rgba (255.255.255, .1);
+ }
+
+footer a: first-child { 
+padding-left: 0px;
+ }
+
+ footer a: last-child { 
+border-right: tidak ada; }
+
+.over-lay { 
+		posisi: relatif;
+
+ }
+
+ .over-lay-box {
+opacity: 0;
+/ * Permalink - gunakan untuk mengedit dan berbagi gradien ini: http://colorzilla.com/gradient-editor/#000719+0,000719+67,000719+100&1+0,0.67+77,0+100 * /
+latar belakang: -moz-linear-gradient (atas, rgba (0,7,25,1) 0%, rgba (0,7,25,0,71) 67%, rgba (0,7,25,0,67) 77%, rgba (0,7,25,0) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (atas, rgba (0,7,25,1) 0%, rgba (0,7,25,0,71) 67%, rgba (0,7,25,0,67) 77%, rgba (0,7,25,0) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: gradien linier (ke bawah, rgba (0,7,25,1) 0%, rgba (0,7,25,0,71) 67%, rgba (0,7,25,0,67) 77%, rgba ( 0,7,25,0) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 000719', endColorstr = '# 00000719', GradientType = 0); / * IE6-9 * / float: kiri;
+overflow: disembunyikan;
+lebar: 100%;
+posisi: absolut;
+tinggi: otomatis;
+transisi: semua .2s linier;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+ }
+
+ .over-lay-box h5 {
+ 	padding: 90px 0px;
+ 	perataan teks: kiri;
+ }
+
+.title-color {
+/ * Permalink - gunakan untuk mengedit dan berbagi gradien ini: http://colorzilla.com/gradient-editor/#410091+0,8475d8+100 * /
+latar belakang: rgb (65,0145); / * Browser lama * /
+latar belakang: -moz-linear-gradient (kiri, rgba (65.0.145.1) 0%, rgba (132.117.216.1) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (kiri, rgba (65,0145,1) 0%, rgba (132,117,216,1) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: linear-gradient (ke kanan, rgba (65.0.145.1) 0%, rgba (132.117.216.1) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 410091', endColorstr = '# 8475d8', GradientType = 1); / * IE6-9 * /
+    }
+    
+   .navbar-default .navbar-toggle {
+    border-color: rgba (255.255.255, .8)! Penting;
+}
+    
+    .navbar-toggle {
+    border-radius: 0px! penting;
+}
+
+.navbar-default .navbar-nav> li> a {
+    font-berat: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand> img {
+    lebar: otomatis;
+    tinggi: 100%! penting;
+}
+
+    .well {
+    min-height: 20px;
+    bantalan: 19px;
+    margin-bottom: 20px;
+    warna latar belakang: transparan! penting;
+    perbatasan: tidak ada! penting;
+    border-radius: 0px! penting;
+    -webkit-box-shadow: tidak ada! penting;
+    bayangan kotak: tidak ada! Penting;
+    }
+    .eve {/ * Permalink - gunakan untuk mengedit dan membagikan gradien ini: http://colorzilla.com/gradient-editor/#001a23+0,206bad+49,114570+49,000d16+100&1+0,0.47+100 * /
+latar belakang: -moz-linear-gradient (kiri, rgba (0,26,35,1) 0%, rgba (17,69,112,0,74) 49%, rgba (0,13,22,0,47) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (kiri, rgba (0,26,35,1) 0%, rgba (17,69,112,0,74) 49%, rgba (0,13,22,0,47) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: linear-gradient (ke kanan, rgba (0,26,35,1) 0%, rgba (17,69,112,0,74) 49%, rgba (0,13,22,0,47) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 001a23', endColorstr = '# 78000d16', GradientType = 1); / * IE6-9 * /
+    warna: # ff! penting;
+    border-radius: 0px! penting;
+    }
+    .panel-body img {
+    border-radius: 0px! penting;
+}
+    .panel-heading {
+    min-height: 70px! penting;
+    }
+    .panel-default> .panel-heading {
+latar belakang: linear-gradient (187deg, # 004870, # 339fb7);
+ukuran latar belakang: 400% 400%;
+
+-webkit-animation: AnimationName 6s mudah tak terbatas;
+-moz-animation: AnimationName 6s mudah tak terbatas;
+animasi: AnimationName 6s mudah tak terbatas;
+}
+
+@ -webkit-keyframes AnimationName {
+    0% {posisi latar belakang: 55% 0%}
+    50% {posisi latar belakang: 46% 100%}
+    100% {posisi latar belakang: 55% 0%}
+}
+@ -moz-keyframes AnimationName {
+    0% {posisi latar belakang: 55% 0%}
+    50% {posisi latar belakang: 46% 100%}
+    100% {posisi latar belakang: 55% 0%}
+}
+@keyframes AnimationName { 
+    0% {posisi latar belakang: 55% 0%}
+    50% {posisi latar belakang: 46% 100%}
+    100% {posisi latar belakang: 55% 0%}
+}
+
+.panel-footer {
+        warna: # ff! penting;
+        batas-bawah-kanan-jari-jari: 0px;
+    batas-bawah-kiri-jari-jari: 0px;
+latar belakang: rgb (22,22,22); / * Browser lama * /
+latar belakang: -moz-radial-gradient (tengah, penutup elips, rgba (22,22,22,1) 0%, rgba (20,20,20,1) 50%, rgba (17,17,17,1) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-radial-gradient (tengah, penutup elips, rgba (22,22,22,1) 0%, rgba (20,20,20,1) 50%, rgba (17,17,17,1) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: radial-gradient (elips di pusat, rgba (22,22,22,1) 0%, rgba (20,20,20,1) 50%, rgba (17,17,17,1) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 161616', endColorstr = '# 111111', GradientType = 1); / * IE6-9 mundur pada gradien horizontal * /
+}
+
+@keyframes blink {
+    0% {
+           background-color: rgba (255,0,0,1)
+    }
+    50% {
+           background-color: rgba (255,0,0,0,5)
+    }
+    100% {
+           background-color: rgba (255,0,0,1)
+    }
+}
+@ -webkit-keyframes berkedip {
+    0% {
+           background-color: rgba (255,0,0,1)
+    }
+    50% {
+           background-color: rgba (255,0,0,0,5)
+    }
+    100% {
+           background-color: rgba (255,0,0,1)
+    }
+}
+.over-lay-box h5 {
+    ukuran font: 12px! penting;
+    text-transform: huruf besar;
+	perataan teks: kiri;
+    transisi: semua .2s mudah;
+    font-weight: bold;
+    posisi: relatif;
+    atas: -20px;
+    text-shadow: 1px 0px 3px rgba (0, 0, 0, 1);
+}
+
+.over-lay-box {
+    batas-jari-jari: 0px;
+/ * Permalink - gunakan untuk mengedit dan berbagi gradien ini: http://colorzilla.com/gradient-editor/#001a23+0,206bad+49,114570+49,141414+100&1+0,0+100 * /
+latar belakang: -moz-linear-gradient (atas, rgba (0,26,35,1) 0%, rgba (17,69,112,0,51) 49%, rgba (20,20,20,0) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (atas, rgba (0,26,35,1) 0%, rgba (17,69,112,0,51) 49%, rgba (20,20,20,0) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: linear-gradient (ke bawah, rgba (0,26,35,1) 0%, rgba (17,69,112,0,51) 49%, rgba (20,20,20,0) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 001a23', endColorstr = '# 00141414', GradientType = 0); / * IE6-9 * /
+
+}
+
+.watch-l {
+    
+latar belakang: rgb (41.192.206); / * Browser lama * /
+latar belakang: -moz-linear-gradient (kiri, rgba (41.192.206,1) 0%, rgba (30.160.149,1) 4%, rgba (30.160.149,1) 4%, rgba (11,39,61,1) 4% , rgba (11,39,61,1) 4%, rgba (0,229,149,1) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (kiri, rgba (41.192.206,1) 0%, rgba (30.160.149,1) 4%, rgba (30.160.149,1) 4%, rgba (11,39,61,1) 4% , rgba (11,39,61,1) 4%, rgba (0,229,149,1) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: gradien linier (ke kanan, rgba (41.192.206,1) 0%, rgba (30.160.149,1) 4%, rgba (30.160.149,1) 4%, rgba (11,39,61,1) 4%, rgba (11,39,61,1) 4%, rgba (0,229,149,1) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 29c0ce', endColorstr = '# 00e595', GradientType = 1); / * IE6-9 * /
+    perbatasan: 1px solid rgba (255.255.255,1);
+    batas-jari-jari: 4px;
+    display: inline-block! important;
+
+}
+
+.watch-l a {
+text-transform: huruf besar;
+warna: # ff! penting;
+display: blok;
+font-family: 'Roboto', sans-serif;
+posisi: relatif;
+}
+
+.panel-body {
+    padding: 0px! penting;
+}
+
+.btn-sukses {
+    warna: #ffffff;
+    warna latar: # 388E3C;
+    warna perbatasan: # 77b300;
+    text-shadow: 1px 1px 1px # 000, 2px 2px 2px # 000;
+    perbatasan: 3px solid #fff;
+}
+
+.title-color {
+    
+    / * Permalink - gunakan untuk mengedit dan berbagi gradien ini: http://colorzilla.com/gradient-editor/#2850c9+0,2989d8+50,0043c9+100 * /
+latar belakang: rgb (40,80.201); / * Browser lama * /
+latar belakang: -moz-linear-gradient (kiri, rgba (40,80.201,1) 0%, rgba (41.137.216,1) 50%, rgba (0,67.201,1) 100%); / * FF3.6-15 * /
+latar belakang: -webkit-linear-gradient (kiri, rgba (40,80.201,1) 0%, rgba (41.137.216,1) 50%, rgba (0,67.201,1) 100%); / * Chrome10-25, Safari5.1-6 * /
+latar belakang: gradien linier (ke kanan, rgba (40,80.201,1) 0%, rgba (41.137.216,1) 50%, rgba (0,67.201,1) 100%); / * W3C, IE10 +, FF16 +, Chrome26 +, Opera12 +, Safari7 + * /
+filter: progid: DXImageTransform.Microsoft.gradient (startColorstr = '# 2850c9', endColorstr = '# 0043c9', GradientType = 1); / * IE6-9 * /
+}
+
+.img-logo {
+       animasi-durasi: 2s;
+ animasi-iterasi-hitung: normal;
+ animasi-waktu-fungsi: kemudahan;
+}
+
+.flaz {
+    animasi-durasi: 2s;
+ animasi-iterasi-hitung: 2;
+ animasi-waktu-fungsi: kemudahan;  
+}
+
+.titly {
+    animasi-durasi: 3s;
+ animasi-iterasi-hitung: 1;
+ animasi-waktu-fungsi: kemudahan;  
+}
+
+.panel-default {
+}
+
+.panel {
+    margin-bottom: 20px;
+    warna latar: # 222222;
+    perbatasan: 2px solid # 607D8B;
+    batas-radius: 8px;
+    -webkit-box-shadow: 0 1px 1px rgba (0,0,0,0,05);
+    box-shadow: 0 1px 1px rgba (0,0,0,0,05);
+}
+.navbar-default {
+latar belakang: # 111 url (/uploads/upper-bg.png);
+    border-bottom: 0px solid rgba (1,1,1, .2);
+box-shadow: 0 4px 2px -2px rgba (0,0,0,0,3);
+}
+
+
+.navbar-default {
+latar belakang: rgba (1,1,1, .4);
+
+}
+
+
+.navbar-default .navbar-toggle {
+   border-color: # 0277BD! penting; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: # 0277BD! penting; 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff! important;
+    border-radius: 10px! penting;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff! important;
+}
+
+.categ {
+    font-family: 'Raleway', sans-serif;
+    ukuran font: 14px;
+    font-weight: normal;
+}
+
+.kepala halaman {
+    padding-bottom: 9px;
+    margin: 0;
+}
+
+.panel {
+    margin-bottom: 20px;
+    perbatasan: 1px solid # 111;
+    batas-radius: 0px;
+    box-shadow: 0 1px 1px rgba (0,0,0,0,05);
+}
+
+.form-control {
+    warna latar: # 111;
+}
+
+hr.style10 {
+    perbatasan: 0px solid # 000! penting;
+    tinggi: 2px;
+    background-image: linear-gradient (ke kanan, rgba (255, 255, 255, 0), rgba (255, 255, 255, 0.90), rgba (255, 255, 255, 0));
+}
+.modal-dialog {
+
+}
+
+.modal-footer {
+padding: 20px! penting;
+}
+.modal-header {
+padding: 20px! penting;
+}
+
+.pood {tinggi: 750px! penting; }
+
+.modal-content {padding: 20px! important; }
+
+.btn-warning {font-size: 30px! important; padding: 25px 30px; }
+
+tubuh {
+    padding-top: 0px;
+}
+.navbar-default {
+    latar belakang: transparan;
+    perbatasan: tidak ada;
+bayangan kotak: tidak ada;
+}
+
+.event-block {
+margin-bottom: 30px; }
+.navbar-default {
+    latar belakang: # 111;
+    perbatasan: tidak ada;
+    bayangan kotak: tidak ada;
+}
+/ * Spanduk Mulai * /
+
+.b950x120 {
+    max-width: 950px;
+    max-height: 120px;
+    lebar: 100%;
+    tinggi: otomatis;
+    margin: 0 otomatis;
+    margin-top: 5px;
+    perataan teks: tengah;
+}
+
+.banners {
+    margin: 0 otomatis;
+    max-width: 950px;
+    lebar: 100%;
+    mengapung: tidak ada;
+}
+
+.single .banners {
+    margin: 5px otomatis 0;
+}
+
+.b-banner {
+    margin-top: 0;
+}
+
+.floating-banner {
+    posisi: absolut;
+    atas: 60px;
+    kiri: 0;
+    kanan: 0;
+    z-index: -1;
+    lebar maks: 1270px;
+    margin: 0 otomatis;
+    lebar: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner.close {
+  posisi: relatif;
+  display: blok;
+}
+
+.banner.close .closeBtn {
+  posisi: absolut;
+  kanan: 0;
+  atas: 0;
+  lebar: 20px;
+  tinggi: 20px;
+  perataan teks: tengah;
+  garis-tinggi: 18px;
+  ukuran font: 20px;
+  latar belakang: # 111;
+  warna: #FFF;
+  font-weight: bold;
+  kursor: pointer;
+}
+
+.gap {
+	display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/ * Akhir Banner * /
+
+/ * Mulai Streaming Area * /
+
+.holds-the-iframe {
+    latar belakang: url (https://lh3.googleusercontent.com/-WXC8Bb1rtwM/XguFUrtOTKI/AAAAAAAAAPc/Ozb0ZFKopm8xEfffHxywC9vhJ7g6hn20wCLcBGAsYHQ/http/pengambil pusat _pengulang; pusat tidak mengulang);
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    menyelaraskan item: pusat;
+    lebar: 100%;
+    tinggi: 100%;
+    posisi: absolut;
+    latar belakang: # 222222;
+}
+
+#countdown .countdown-unit {
+    posisi: relatif;
+}
+
+#countdown .countdown-unit + .countdown-unit {
+    margin-kiri: 50px;
+}
+
+#countdown .countdown-unit + .countdown-unit: after {
+    kandungan: ':';
+    posisi: absolut;
+    warna: #FFF;
+    atas: 50%;
+    kiri: -35px;
+    transform: translateY (-80px);
+    ukuran font: 84px;
+    garis-tinggi: 116px;
+}
+
+#countdown .countdown-unit> div {
+    display: flex;
+    arah fleksibel: kolom;
+    menyelaraskan item: pusat;
+}
+
+#countdown .countdown-unit span {
+    ukuran font: 84px;
+    garis-tinggi: 116px;
+    warna: #FFF;
+}
+
+#countdown .countdown-unit span [data-detik] {
+    warna: # FF0000;
+}
+
+#countdown .countdown-unit .unit-name {
+    ukuran font: 16px;
+    garis-tinggi: 29px;
+    text-transform: huruf besar;
+}
+
+.stream-over {
+    display: flex;
+    justify-content: center;
+    menyelaraskan item: pusat;
+    lebar: 100%;
+    tinggi: 100%;
+    posisi: absolut;
+    latar belakang: # 222222;
+    ukuran font: 40px;
+    garis-tinggi: 116px;
+    warna: #FFF;
+}
+
+.streaming-header h2 {
+    margin: 0;
+}
+
+.streaming-area, .streaming-header, .footer-area, .header-area {
+    max-width: 950px;
+    lebar: 100%;
+    margin: 0 otomatis;
+    overflow: disembunyikan;
+}
+
+.streaming-wrapper {
+	overflow: disembunyikan;
+}
+
+.streaming-wrapper> div {
+    bantalan: 0;
+}
+
+.streaming-top-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden-chat .chat-area {
+  display: tidak ada;
+}
+
+.hidden-chat .streaming-top-area .streaming-server {
+	display: blok;
+}
+
+.hidden-chat .video-area {
+  lebar: 100%;
+}
+
+.embed-container {
+    posisi: relatif;
+    padding-bottom: 56,25%;
+    tinggi: 0;
+    overflow: disembunyikan;
+    max-width: 100%;
+}
+
+.streaming-player iframe {
+    lebar: 100%;
+    tinggi: 100%;
+    posisi: absolut;
+}
+
+.streaming-banner a, .streaming-banner a img {
+    display: blok;
+}
+
+.streaming-server {
+    margin: 5px;
+	perataan teks: tengah;
+}
+
+.streaming-top-area .streaming-server {
+	display: tidak ada;
+}
+
+.streaming-server a, .chat-beralih a {
+    display: inline-block;
+    warna latar: # 009285;
+    warna: #FFF;
+    text-transform: huruf besar;
+    padding: 2px 5px;
+    perbatasan: 1px solid # 000;
+}
+
+.streaming-server a.active, .chat-beralih a.active {
+    warna latar: # 222;
+	warna: #FFF;
+}
+
+.streaming-chat iframe {
+    display: blok;
+}
+
+.chat-toggle {
+	margin: 5px 0 5px otomatis;
+	perataan teks: kanan;
+}
+
+.chat-toggle a: hover {
+	warna: #FFF;	
+}
+
+.accordion-panel .panel-content {
+  display: tidak ada;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.accordion-panel .panel-btn {
+  kursor: pointer;
+  font-weight: bold;
+  posisi: relatif;
+}
+
+.accordion-panel .panel-btn :: before {
+  konten: 'â ?? µ';
+}
+
+.accordion-panel .panel-btn.open :: before {
+  konten: 'â ?? ¶';
+}
+
+/ * Area Streaming Berakhir * /
+a: arahkan, a: dikunjungi, tautan:, a: aktif
+{
+    teks-dekorasi: tidak ada;
+}
+
+/ * Pemberitahuan * /
+.ml-12, .ml-xl-12, .ml-xl-auto {posisi: relatif; lebar: 100%; tinggi minimum: 1px; bantalan: 3px}
+.alert {
+  padding: 10px;
+  background-image: linear-gradient (90deg, # 1a191f 20%, # 444444 100%);
+  ukuran font: 11px;
+  font-berat: 600;
+  batas-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 20px 0 rgb (0, 0, 0);
+}
+.ml-6, .ml-xl-6, .ml-xl-auto {position: relative; width: 100%; min-height: 1px; padding: 3px}
+.ml-3, .ml-xl-3, .ml-xl-auto {posisi: relatif; lebar: 100%; tinggi minimum: 1px; bantalan: 3px}
+/ * Pemberitahuan Akhir * /
+
+/ * TOMBOL * /
+.button-server {
+	display: blok;
+}
+
+.button-server {
+    margin: 5px;
+	perataan teks: tengah;
+}
+
+.button-server {
+	display: tidak ada;
+}
+
+.button-server a, .button-beralih a {
+    display: inline-block;
+    warna latar: # 009285;
+    warna: #FFF;
+    text-transform: huruf besar;
+    padding: 2px 5px;
+    perbatasan: 1px solid # 000;
+}
+
+.button-server a.active, .button-beralih a.active {
+    warna latar: # 222;
+	warna: #FFF;
+}
